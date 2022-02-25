@@ -53,7 +53,9 @@ nav {
    font-family: 'Trebuchet MS', Helvetica, sans-serif;
    padding-top: 10px;
    padding-bottom: 10px;
-   text-decoration-color: white;
+}
+link{
+   color: white;
    text-decoration: none;
    background-color: hsla(0, 0%, 42%, 0.4);
 }
