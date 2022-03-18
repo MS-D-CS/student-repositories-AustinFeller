@@ -233,7 +233,7 @@
          -webkit-transition: all 0.3s ease;
          transition: all 0.3s ease;
        }
-       .final__gradient-button-2:hover {
+       .gradient-button-2:hover {
          background-size: 100%;
          background-image: linear-gradient(to right, orangered, transparent);
          border-right-style: none;
@@ -242,11 +242,11 @@
     
     
     
-    /* =========================
-       ANIMATED BUTTONS
-       ========================= */
+/* =========================
+  ANIMATED BUTTONS
+  ========================= */
     
-       .final__animated-button-1 {
+.animated-button-1 {
          position: relative;
          display: inline-block;
          padding: 20px 40px;
@@ -259,13 +259,13 @@
          color: white;
          transition: all 0.3s ease;
        }
-       .final__animated-button-1:hover {
+       .animated-button-1:hover {
          -webkit-animation: loading-button-animation 2s linear infinite;
                  animation: loading-button-animation 2s linear infinite;
        }
     
     
-       .final__animated-button-2 {
+       .animated-button-2 {
          position: relative;
          display: inline-block;
          padding: 20px 40px;
@@ -276,7 +276,7 @@
          color: white;
          transition: all 0.3s ease;
        }
-       .final__animated-button-2:after {
+       .animated-button-2:after {
          position: absolute;
          top: 50%;
          right: 0.6em;
@@ -286,10 +286,10 @@
          opacity: 0;
          transition: all 0.3s ease;
        }
-       .final__animated-button-2:hover {
+       .animated-button-2:hover {
          padding: 20px 60px 20px 20px;
        }
-       .final__animated-button-2:hover:after {
+       .animated-button-2:hover:after {
          right: 1.2em;
          opacity: 1;
        }
@@ -314,20 +314,20 @@
     
     
     
-    /* =========================
-       TOGGLE SWITCH UI BUTTONS
-       ========================= */
+/* =========================
+  TOGGLE SWITCH UI BUTTONS
+  ========================= */
     
-       .final__toggle-1 {
+       .toggle-1 {
          font-family: Helvetica, Arial, sans-serif;
          display: inline-block;
          vertical-align: top;
          margin: 0 15px 0 0;
        }
-       .final__toggle-1__input {
+       .toggle-1__input {
          display: none;
        }
-       .final__toggle-1__button {
+       .toggle-1__button {
          position: relative;
          display: inline-block;
          font-size: 14px;
@@ -341,7 +341,7 @@
          transition: all 0.3s ease;
          cursor: pointer;
        }
-       .final__toggle-1__button:before {
+       .toggle-1__button:before {
          position: absolute;
          top: 6px;
          left: 40px;
@@ -354,28 +354,28 @@
          content: "off";
          transition: all 0.3s ease;
        }
-       .final__toggle-1__input:checked + .final__toggle-1__button {
+       .toggle-1__input:checked + .toggle-1__button {
          background-color: #00b3b4;
          border:1px solid #00b3b4;
        }
-       .final__toggle-1__input:checked + .final__toggle-1__button:before {
+       .toggle-1__input:checked + .toggle-1__button:before {
          left: 5px;
          content: "on";
          color: #00b3b4;
        }
     
     
-       .final__toggle-2 {
+       .toggle-2 {
          font-family: Helvetica, Arial, sans-serif;
          font-size: 1rem;
          display: inline-block;
          vertical-align: top;
          margin: 0 15px 0 0;
        }
-       .final__toggle-2__input {
+       .toggle-2__input {
          display: none;
        }
-       .final__toggle-2__button {
+       .toggle-2__button {
          position: relative;
          display: inline-block;
          line-height: 20px;
@@ -387,7 +387,7 @@
          transition: all 0.3s ease;
          cursor: pointer;
        }
-       .final__toggle-2__button:before {
+       .toggle-2__button:before {
          position: absolute;
          top: 10px;
          left: 10px;
@@ -399,12 +399,12 @@
          content: "";
          transition: all 0.3s ease;
        }
-       .final__toggle-2__input:checked + .final__toggle-2__button {
-         background-color: #00b3b4;
-         border-color: #00b3b4;
-         color: #ffffff;
-       }
-       .final__toggle-2__input:checked + .final__toggle-2__button:before {
-         background-color: #ffffff;
-       }
+.toggle-2__input:checked + .final__toggle-2__button {
+    background-color: #00b3b4;
+    border-color: #00b3b4;
+    color: #ffffff;
+}
+.toggle-2__input:checked + .final__toggle-2__button:before {
+      background-color: #ffffff;
+}
     
