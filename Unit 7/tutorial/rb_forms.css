@@ -52,7 +52,13 @@ legend {
 
 
 /* Text Area Styles */
-
+textarea { 
+   margin-top: 10px; 
+   height: 100px;    
+   width: 95%; 
+} 
+   
+    
 
 
 /* Spinner Styles */
